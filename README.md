@@ -10,11 +10,11 @@ printBoard(board)
 This function takes a dictionary named board as input and prints the current state of the game board. The board is displayed as follows:
 
 1|2|3
--+-+-
+-----
 4|5|6
--+-+-
+-----
 7|8|9
-
+-----
 Each number represents a cell on the board.
 spaceIsFree(position)
 This function takes an integer position as input and returns a boolean indicating whether the specified position on the game board is free or not.
@@ -41,5 +41,4 @@ At each turn, the program checks for a winner by calling checkForWin(), checkWhi
 If there is no winner yet, the program asks the user to input a position for their move using playerMove(). The program then checks for a winner again, and if there is none, the program allows the computer to make its move by calling compMove(). The program then checks for a winner again, and the game continues until a winner is found or a draw is declared.
 Finally, at the end of the game, the program asks the user if they want to play again or exit.
 Overall, this program implements a simple tic-tac-toe game that can be played between a user and the computer.
-
 Source:https://github.com/javacodingcommunity
